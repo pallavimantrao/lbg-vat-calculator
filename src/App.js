@@ -23,7 +23,7 @@ function App() {
     setGrossPrice(price);
     setVatToPay(price - net_price);
   };
-
+//
   const handleVatRateChanged = (rate) => {
     setVatRate(rate);
     updatePrices();
